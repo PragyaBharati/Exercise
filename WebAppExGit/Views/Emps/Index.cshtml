@@ -1,0 +1,45 @@
+﻿@model IEnumerable<WebAppExGit.Models.Emp>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Ename)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EDesing)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EDOJ)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ename)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EDesing)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EDOJ)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Eid }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Eid }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Eid })
+        </td>
+    </tr>
+}
+
+</table>
