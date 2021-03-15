@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppExGit", "WebAppExGit\WebAppExGit.csproj", "{6E4E7486-694D-44BD-BA52-19CD04086BCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E4E7486-694D-44BD-BA52-19CD04086BCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E4E7486-694D-44BD-BA52-19CD04086BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E4E7486-694D-44BD-BA52-19CD04086BCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E4E7486-694D-44BD-BA52-19CD04086BCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D71D303-3195-43E5-90FD-10A10C77EC53}
+	EndGlobalSection
+EndGlobal
